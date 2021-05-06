@@ -20,7 +20,7 @@ def token(l):
     string.ascii_lowercase) for x in range(l))
 
 
-class rproto(object):
+class crawler(object):
     def __init__(self):
         self.alive = True
         self.lastmsg_id = None
@@ -249,4 +249,4 @@ class rproto(object):
 
 
 if __name__ == "__main__":
-    obj = rproto()
+    obj = crawler()
